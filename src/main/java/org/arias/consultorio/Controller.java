@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/hola")
 public class Controller {
 
-
     @GetMapping("/mundo")
     public String holaMundo() {
-        return "Hola Mundo";
+        return "Hola Mundo 2";
     }
+
 }
