@@ -13,6 +13,6 @@ public class Controller {
 
     @GetMapping("/mundo")
     public String holaMundo() {
-        return "Hola Mundo update";
+        return "Hola Mundo";
     }
 }
