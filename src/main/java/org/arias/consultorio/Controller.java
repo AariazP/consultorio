@@ -16,18 +16,7 @@ public class Controller {
     @GetMapping("/ciudades")
     public List<String> holaMundo() {
         return List.of(
-                "Armenia",
-                "Filandia",
-                "Calarca",
-                "Circasia",
-                "Montenegro",
-                "Quimbaya",
-                "Salento",
-                "Buenavista",
-                "Cordoba",
-                "La Tebaida",
-                "Pijao",
-                "Genova");
+                "Armenia");
     }
 
 }
