@@ -5,14 +5,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @CrossOrigin
 @RestController
-@RequestMapping("/api/hola")
+@RequestMapping("/api/registro")
 public class Controller {
 
-    @GetMapping("/mundo")
-    public String holaMundo() {
-        return "Hola Mundo 2";
+    @GetMapping("/ciudades")
+    public List<String> holaMundo() {
+        ArrayList<String> ciudades = new ArrayList<String>();
+        ciudades.add("Armenia");
+        return ciudades;
     }
 
 }
