@@ -15,9 +15,19 @@ public class Controller {
 
     @GetMapping("/ciudades")
     public List<String> holaMundo() {
-        ArrayList<String> ciudades = new ArrayList<String>();
-        ciudades.add("Armenia");
-        return ciudades;
+        return List.of(
+                "Armenia",
+                "Filandia",
+                "Calarca",
+                "Circasia",
+                "Montenegro",
+                "Quimbaya",
+                "Salento",
+                "Buenavista",
+                "Cordoba",
+                "La Tebaida",
+                "Pijao",
+                "Genova");
     }
 
 }
